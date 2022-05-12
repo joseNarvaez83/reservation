@@ -32,7 +32,7 @@ public class ReservationLoader implements CommandLineRunner {
         for (int i = 1; i <= 5; i++) {
             reservations.add(Reservation.builder()
                     .id(i)
-                    .name("Reservation No." + i)
+                    .name("Reservation test azure No." + i)
                     .build());
         }
 
